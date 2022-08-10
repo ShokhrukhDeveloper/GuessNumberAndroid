@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/img" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/splashText"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="Number Guess Game"
@@ -26,8 +26,6 @@
         android:textColor="#E91E63"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="521dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
